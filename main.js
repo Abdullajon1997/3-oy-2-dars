@@ -263,14 +263,14 @@
 // 17-misol
 
 // const odam=document.querySelector(".person")
-// let jins="ayol";
+// let jins="erkak";
 // let s=""
 // if(jins=="erkak") {
 //      s=`<img src="./img/boy.jpg"/>`
 // }else{
 //     s=`<img src="./img/girl.webp" />`
 // }
-// odam.innerHTML=s
+// odam.innerHTML=s 
 
 // 18-misol
 
@@ -419,24 +419,24 @@
 
 // 26-misol
 
-// function son (a)
-// {
-//     let yuzlik,onlik;
-//     yuzlik=Math.trunc(a/100);
-//     console.log(yuzlik);
-//     onlik=Math.trunc(a/10%10);    
-//     console.log(onlik);
-//     birlik=Math.trunc(a%10);
-//     console.log(birlik);
-//     if(birlik<onlik || onlik<yuzlik)
-//     {
-//         console.log("O'sib borish taribida joylashgan");
-//     }
-//     else
-//     {
-//         console.log("Xatolik mavjud !!!");
-//     }
-// }son(347)
+function son (a)
+{
+    let yuzlik,onlik,birlik;
+    yuzlik=Math.trunc(a/100);
+    console.log(yuzlik);
+    onlik=Math.trunc(a/10%10);    
+    console.log(onlik);
+    birlik=Math.trunc(a%10);
+    console.log(birlik);
+    if(birlik>onlik && onlik>yuzlik)
+    {
+        console.log("O'sib borish taribida joylashgan");
+    }
+    else
+    {
+        console.log("Xatolik mavjud !!!");
+    }
+}son(347)
 
 // 27-misol
 

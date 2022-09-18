@@ -419,24 +419,24 @@
 
 // 26-misol
 
-function son (a)
-{
-    let yuzlik,onlik,birlik;
-    yuzlik=Math.trunc(a/100);
-    console.log(yuzlik);
-    onlik=Math.trunc(a/10%10);    
-    console.log(onlik);
-    birlik=Math.trunc(a%10);
-    console.log(birlik);
-    if(birlik>onlik && onlik>yuzlik)
-    {
-        console.log("O'sib borish taribida joylashgan");
-    }
-    else
-    {
-        console.log("Xatolik mavjud !!!");
-    }
-}son(347)
+// function son (a)
+// {
+//     let yuzlik,onlik,birlik;
+//     yuzlik=Math.trunc(a/100);
+//     console.log(yuzlik);
+//     onlik=Math.trunc(a/10%10);
+//     console.log(onlik);
+//     birlik=Math.trunc(a%10);
+//     console.log(birlik);
+//     if(birlik>onlik && onlik>yuzlik)
+//     {
+//         console.log("O'sib borish taribida joylashgan");
+//     }
+//     else
+//     {
+//         console.log("Xatolik mavjud !!!");
+//     }
+// }son(347)
 
 // 27-misol
 
@@ -464,15 +464,20 @@ function son (a)
 
 // 28-miosl
 
-// function son (a)
-// {
-//     let s=0;
-//     for(let i=s; s<a;i++)
-//     {
-//         s++;
-//         console.log(s);
-//     }
-// }son(15)
+function son (n)
+{
+    for(let i=4;i<=n;i++)
+    {
+        for(let j=2;i>j;j++)
+        {
+            if(i%j==0)
+            {
+                console.log(i);
+                break;
+            }
+        }
+    }
+}son(20)
 
 
 
